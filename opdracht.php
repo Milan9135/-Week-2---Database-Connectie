@@ -14,7 +14,6 @@ try {
     echo "Connection failed: " . $e->getMessage();
 }
 
-
 $stmt = $conn->query('SELECT @@version');
 
 
